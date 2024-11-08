@@ -1,4 +1,4 @@
-package com.example.camera2api
+package com.example.camera2api.camera2
 
 import android.Manifest
 import android.content.Context
@@ -6,13 +6,11 @@ import android.content.pm.PackageManager
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.hardware.camera2.*
-import android.media.Image
 import android.media.ImageReader
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.util.Log
-import android.view.Surface
 import android.view.SurfaceHolder
 import android.view.SurfaceView
 import android.widget.Button
@@ -21,6 +19,7 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
+import com.example.camera2api.R
 import java.io.File
 import java.io.FileOutputStream
 import java.nio.ByteBuffer

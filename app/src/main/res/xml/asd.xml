@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Allow access to the external media directory of the app -->
+    <external-path
+        name="external_files"
+        path="Android/media/com.example.camera2api/Camera2Api/" />
+</paths>
